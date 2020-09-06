@@ -1,0 +1,111 @@
+
+== Okablowanie i gniazda sieci ==
+
+{{tag>infrastruktura sieć}}
+----
+
+Cały system w HS jest terminowany na konfiguracji B, przewody w ścianach CAT6A STP (U/FTP).
+
+=== Szafka sieciowa ===
+
+Patchcordy w skrzynce to cat. 5 STP (U/FTP)
+Na razie mamy 100Mbit switch, więc nie wykorzystujemy w pełni infrastruktury, patchcordy w skrzynce sieciowej są na niższej kategorii, ale i tak obsługują Gbitowe połączenie. Spokojnie dadzą radę nawet przy wymianie switcha na Gbitowy, jeśli kiedyś dorobimy się 10Gbitowego switcha, to trzeba będzie wymienić patchcordy
+
+=== Mapa przyłączy sieciowych ===
+<file> ---------------------------------------------------------------------------------------------------------------------------------------
+{| class="wikitable sortable" border=1
+|        13       ||         ||  15                                  ?  ||                 || 3                      1            ?  ||              4 
+|-
+|                 ||    MAG. ||                                         ||                 ||                                                        
+|-
+|                 || --   -- ||         __              __              ||                 ||         __              __                             
+|-
+|   BIURO II              ||         || 14 ||    CZERWONA  || 21 ||              ||      BIURO I    ||         || 10 ||     COOWORK  || 19 ||              ||      WARSZTAT  
+|-
+|                         ||         ‾‾              ‾‾              ||                 ||         ‾‾              ‾‾              ||                
+|-
+| --------------- ||         ||                                         ||              2  ||                                         ||                
+|-
+| 17             ---     -----------------------    --------------------    ----- ||                                         || ---------------
+|-
+|         __        ||                                                               ||                                         ||                
+|-
+|         || 20 ||                                                                                                              ||      MAGAZYN   
+|-
+|         ‾‾                                                                                             11               ||                
+|-
+|        CZARNA     || --    ---------    ----    -----    --     ---------    ----- || -----    ------------------------------ || ----    ------ 
+|-
+|      __           ||               ||         ||         ||         ||    ^    ||                                                                        
+|-
+|      || 16 ||           ||               ||         ||         ||         ||     ||     ||         _               _               _       __                   5 
+|-
+|      ‾‾           ||     KUCHNIA   ||    WC   ||    WC   ||    WC   || WEJŚCIE ||         || 9 ||               || 8 ||      MEETUP   || 7 ||       || 12 ||                     
+|-
+|                   ||               ||         ||         ||         ||         ||         ‾               ‾               ‾       ‾‾                     
+|-
+|                   ||               ||         ||         ||         ||         ||                ?               ?               ?                       
+|-
+|}
+ ---------------------------------------------------------------------------------------------------------------------------------------
+
+FLOORBOX:
+ __
+{| class="wikitable sortable" border=1
+| xx
+|-
+|}
+ ‾‾
+GNIAZDO ŚCIENNE:
+xx
+ 
+BRAK GNIAZDA:
+?
+ 
+WOLNE GNIAZDA:
+6, 18, 22
+</file>
+
+* [[infrastruktura:plan_sieci|Plan Sieci]]
+* [[sprzet:networking_gear|Sprzęt Sieciowy]]
+
+
+
+
+== Szybkie TODO ==
+
+*  zakup i montaż pozostałych 3 gniazd
+*  zaślepienie wolnych gniazd na cat5
+*  ogarnięcie APków i sprawdzenie pokrycia sygnałem
+
+== Worklog ==
+*  18.10.2017  - Montaż części gniazd we floorboxach, boxy z gniazdami oznaczone żółta taśmą.
+*  29.10.2017 - montaż gniaza w biurze i sali meetupowej
+*  01.11.2017 - osiem gniazd na patch palelu
+*  02.11.2017 - reszta terminacji na panelu, gniazdo ścienne w cooworku
+*  03.11.2017 - gniazdo ścienne w cooworku, router wifi poza szafką
+*  04.11.2017 - switch podwieszony, zrobione kilka krótkich kabli (5eSTP), montaż gniazda ściennego w sali czerwonej i za lodówką w cooworku
+*  05.11.2017 - montaż gniazd w drugim biurze codeme i na ścianie w czarnej sali, nie mamy więcej gniazd. Dodany załącznik z mapą gniazd, numery odpowiadają portom na patch panelu
+*  25.11.2017 - wszystkie porty switcha mają odpowiadający patchord
+--- ''[[user>yazjack|yazjack]] 2017''
+----
+* Rekonfiguracja i przypisanie IP
+''' zlotook-1 na 192.182.88.11, TL-WR941N
+''' zlotook-2 na 192.182.88.12, TL-WR941N
+''' mszyca-1 na 192.182.88.14, TL-WR340G
+* Backup konfiguracji powyższych 
+* Sieci WiFi
+''' hs3_p1 na kanale 13
+''' hs3_p2 na kanale 9
+''' hs3_p3 na kanale 5
+
+ --- ''[[user>not7cd|not7cd]] 2018/03/23 19:39''
+
+----
+* Aktualizacja mikrotika 6.29.1 -> 6.41.3
+* Przestawienie cykady z 5GHz na 2.4GHz i 5GHz
+
+--- ''[[user>not7cd|not7cd]] [[user>mroz|mroz]] 2018/03/24 19:45''
+----
+* cykada static IP na 198.162.88.10
+ --- ''[[user>not7cd|not7cd]] 2018/03/25 07:25''

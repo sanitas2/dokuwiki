@@ -1,0 +1,5 @@
+{{tag>wydarzenie cykliczne zakończone}}
+
+= Bio Academy =
+
+Spotykamy się co tydzień w poniedziałki o 18:00, żeby obejrzeć i przedyskutować kolejny wykład z [[http:''bio.academany.org/doc/classes|BioAcademy]]. W planach jest też robienie [[wydarzenia:biohackerspace:equipement|sprzętu laboratoryjnego]], żeby móc porobić praktyczne zadania.

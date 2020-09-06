@@ -1,0 +1,17 @@
+a:2:{s:7:"current";a:10:{s:4:"date";a:2:{s:7:"created";i:1556011387;s:8:"modified";i:1568140990;}s:7:"creator";s:7:"Norbert";s:4:"user";s:6:"not7cd";s:11:"last_change";a:8:{s:4:"date";i:1568140990;s:2:"ip";s:15:"176.221.120.219";s:4:"type";s:1:"E";s:2:"id";s:16:"sprzet:gimili_xl";s:4:"user";s:5:"yasiu";s:3:"sum";s:24:"[Drukarka 3D Gimili XL] ";s:5:"extra";s:0:"";s:10:"sizechange";i:1;}s:11:"contributor";a:2:{s:6:"not7cd";s:7:"Norbert";s:5:"yasiu";s:18:"Marcin Jasiukowicz";}s:5:"title";s:21:"Drukarka 3D Gimili XL";s:11:"description";a:2:{s:15:"tableofcontents";a:5:{i:0;a:4:{s:3:"hid";s:21:"drukarka_3d_gimili_xl";s:5:"title";s:21:"Drukarka 3D Gimili XL";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:7:"obsluga";s:5:"title";s:8:"Obsługa";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:15:"typowe_problemy";s:5:"title";s:15:"Typowe problemy";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:12:"specyfikacja";s:5:"title";s:12:"Specyfikacja";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:6:"budowa";s:5:"title";s:6:"Budowa";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:411:"Drukarka 3D Gimili XL
+
+sprzet hardware
+
+strona projektu
+
+----------
+
+Obsługa
+
+	*  Wygeneruj plik .gcode za pomocą wybranego slicera (np. Cura) 
+	*  Sprawdzone ustawienia dla Cury: 
+		*  Jakość:  
+		*  Print speed: 30mm/s
+
+	*  Skopiuj plik .gcode na kartę pamięci drukarki 
+	*  Upewnij się że płyta szklana jest czysta i sucha. Umycie wodą z mydłem i dokładne wysuszenie papierem powinno wystarczyć.";}s:7:"subject";a:2:{i:0;s:6:"sprzet";i:1;s:8:"hardware";}s:8:"relation";a:3:{s:10:"references";a:3:{s:10:"tag:sprzet";b:0;s:12:"tag:hardware";b:0;s:18:"projekty:gimili_xl";b:1;}s:5:"media";a:2:{s:18:"poradniki:cura.png";b:1;s:19:"poradniki:gimli.jpg";b:1;}s:10:"firstimage";s:18:"poradniki:cura.png";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1556011387;s:8:"modified";i:1568140990;}s:7:"creator";s:7:"Norbert";s:4:"user";s:6:"not7cd";s:11:"last_change";a:8:{s:4:"date";i:1568140990;s:2:"ip";s:15:"176.221.120.219";s:4:"type";s:1:"E";s:2:"id";s:16:"sprzet:gimili_xl";s:4:"user";s:5:"yasiu";s:3:"sum";s:24:"[Drukarka 3D Gimili XL] ";s:5:"extra";s:0:"";s:10:"sizechange";i:1;}s:11:"contributor";a:2:{s:6:"not7cd";s:7:"Norbert";s:5:"yasiu";s:18:"Marcin Jasiukowicz";}}}

@@ -1,0 +1,8 @@
+====== Cowork ====== 
+{{tag>miejsce}}
+----
+
+Wspólna przestrzeń hackerspejsu, udostępniona do różnego rodzaju aktywności, od rozwijania własnych [[projekty:start|projektów]] do organizowania [[poradniki:zrob se meetup|warsztatów]]. W pomieszczeniu można wydzielić dwie strefy, bardziej otwartą i taką, w której można pracować w skupieniu. Przechodząc przez workspace można przejść bezpośrednio do [[miejsce:warsztat|warsztatu]].
+
+W przestrzeni otwartej znajduje się stół z krzesłami biurowymi i kanapą, oraz widokiem na białą tablicę. Miejsca przy stole zapewniają dostęp do prądu i internetu. Stół może pomieścić jednocześnie do kilkunastu osób i jest on centralnym punktem workspejsu. Odbywają się przy nim mniej liczebne warsztaty a w trakcie [[wydarzenia:hackaday|dni otwartych]] zasiada przy nim większość uczestników. W tej częsci workspejsu do dyspozycji znajduje się sprzęt dla audiofilów - <del>gramofon wraz z kolekcją winyli</del>, a także telewizor z [[sprzet:chromecast|Google Chromecastem]]. Jest tu również [[https://docs.google.com/spreadsheets/d/1Hhglh_gyWU-uDhdPlIaBCnD1Hc2UYHMfYEn99UqWksY/edit#gid=0|biblioteka]] Hackerspejsu wypełniona książkami literatury technicznej, faktu i filozofii. 
+Druga część oferuje 3 stanowiska biurowe, w pełni wyposażony [[projekty:stol_warsztatowy_do_elektroniki|stół warsztatowy do elektroniki]], a także [[sprzet:gimili_xl|drukarkę 3d]] oraz [[projekty:frezarka_cnc|frezarka CNC]].

@@ -1,0 +1,13 @@
+a:2:{s:7:"current";a:10:{s:4:"date";a:2:{s:7:"created";i:1554320687;s:8:"modified";i:1554749123;}s:7:"creator";s:4:"mroz";s:4:"user";s:4:"mroz";s:11:"last_change";a:8:{s:4:"date";i:1554749123;s:2:"ip";s:14:"213.192.75.117";s:4:"type";s:1:"E";s:2:"id";s:18:"projekty:chmura_hs";s:4:"user";s:4:"mroz";s:3:"sum";s:10:"[Worklog] ";s:5:"extra";s:0:"";s:10:"sizechange";i:68;}s:11:"contributor";a:1:{s:4:"mroz";s:4:"mroz";}s:5:"title";s:9:"Chmura hs";s:11:"description";a:2:{s:15:"tableofcontents";a:6:{i:0;a:4:{s:3:"hid";s:9:"chmura_hs";s:5:"title";s:9:"Chmura hs";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:17:"warstwa_sprzetowa";s:5:"title";s:18:"Warstwa sprzętowa";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:27:"warstwa_automatyzacji_sieci";s:5:"title";s:27:"Warstwa automatyzacji sieci";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:7:"worklog";s:5:"title";s:7:"Worklog";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:7:"notatki";s:5:"title";s:7:"Notatki";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:5;a:4:{s:3:"hid";s:24:"konfiguracja_nazwy_hosta";s:5:"title";s:24:"konfiguracja nazwy hosta";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:401:"Chmura hs
+Zamieszanymroz  Rozpoczęto2019-04-03  Status
+w_realizacji
+Tagi
+projekt siec rpi
+Trellopi-cloud Repozytorium - gui hs3city/rpi-cluster-managerRepozytorium - biblioteki hs3city/matka.lab.hs3.pl
+Projekt ma na celu stworzenie zautomatyzowanej, odizolowanej sieci laboratoryjnej na terenie HSu. 
+
+Warstwa sprzętowa
+
+Wymagania:
+
+	*  gotowa do obsłużenia 16 podłączonych przewodowo urządzeń";}s:7:"subject";a:4:{i:0;s:12:"w_realizacji";i:1;s:7:"projekt";i:2;s:4:"siec";i:3;s:3:"rpi";}s:8:"relation";a:2:{s:10:"references";a:4:{s:16:"tag:w_realizacji";b:0;s:11:"tag:projekt";b:0;s:8:"tag:siec";b:0;s:7:"tag:rpi";b:0;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1554320687;s:8:"modified";i:1554749123;}s:7:"creator";s:4:"mroz";s:4:"user";s:4:"mroz";s:11:"last_change";a:8:{s:4:"date";i:1554749123;s:2:"ip";s:14:"213.192.75.117";s:4:"type";s:1:"E";s:2:"id";s:18:"projekty:chmura_hs";s:4:"user";s:4:"mroz";s:3:"sum";s:10:"[Worklog] ";s:5:"extra";s:0:"";s:10:"sizechange";i:68;}s:11:"contributor";a:1:{s:4:"mroz";s:4:"mroz";}}}

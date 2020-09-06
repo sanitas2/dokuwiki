@@ -1,0 +1,57 @@
+= Dekrety =
+Trudno stwierdzić czym są, ale jak sam autor podaje:
+> Na trello by wisiało jako task. Ogólnie 'kultura hackerska' to taki gowno task cykliczny, ale lepiej tu, bo może ktoś przeczyta. Kolejne miejsce czy dokument to tu much. A na slacku znika i nie wszyscy śledzą. Jedno miejsce stanowe jest spk, ale też zdubluję to w wiki potem tylko z nią też deal, że nie wiem czy dużo ludków czyta.
+
+== Aktywne? ==
+=== O temperowaniu ===
+Ciśnięcie i temperowanie ludzi w przyjazny sposób. Możesz przygotować się na nie swój meetup lub goszczony, aby zwiększyć poziom merytoryczny a przy okazji się rozwijać.
+
+=== O sprzątaniu ===
+Utrzymujemy porządek. Ma być przyjemnie w spejsie. Krzycz na <del>zjebów</del> bałaganiarzy co tego nie robią. Wynosimy śmieci. Randomom na meetupach mówimy by butelki wyrzucali do śmietnika. (Chyba że są zwrotne, dbajmy o środowisko!)
+=== O sugerowaniu ===
+Sugerujemy wsparcie spejsu czy to finansowe czy czasem/wiedzą. Sami też pomagamy nowym osobom, które chcą się uczyć. (nie koniecznie tym co za free chcą mieć naukę) Tych na kursy.
+
+=== O zdjęciach ===
+Robienie zdjęć na wydarzeniach. Jeśli się da to aparatem. Jeśli się nie da to telefonem. Oczywiście za zgodą osób na tym zdjęciu występujących!
+
+=== O dekretach ===
+Regularnie przeglądaj najnowsze dekrety.
+
+=== Notatki ze spotkań rady/sporga ===
+
+
+[[strefa:dekrety:rada_2018_07_31|Rada 2018.07.31]]
+
+[[strefa:dekrety:rada_2018_08_28|Rada 2018.08.08]]
+
+[[strefa:dekrety:rada_2018_09_25|Rada 2018.09.25]]
+
+[[strefa:dekrety:rada_2018_11_04|Rada 2018.11.06]]
+
+[[strefa:dekrety:rada_2018_11_20|Rada 2018.11.20]]
+
+[[strefa:dekrety:rada_2019_01_08|Rada 2019.01.08]]
+
+[[strefa:dekrety:rada_2019_01_29|Rada 2019.01.29]]
+
+[[strefa:dekrety:rada_2019_02_26|Rada 2019.02.26]]
+
+[[strefa:dekrety:rada_2019_03_12|Rada 2019.03.12]]
+
+[[strefa:dekrety:rada_2019_03_26|Rada 2019.03.26]]
+
+[[strefa:dekrety:rada_2019_04_09|Rada 2019.04.09]]
+
+[[rada_2019_04_23|SPORG 2019.04.23]]
+
+[[SPORG 2019.05.07]]
+
+[[SPORG 2019.06.04]]
+
+[[SPORG 2019.06.18]]
+
+[[SPORG 2019.08.13]]
+
+[[SPORG 2019.08.27]]
+
+[[SPORG 2019.10.01]]

@@ -1,0 +1,29 @@
+kuba [4:24 PM]
+To ja pierwszy: chciałbym aby był jeden stały dzień w którym ~20 osób klepie swoje własne poboczne projekty i może dostać live feedback.
+
+arturpp [4:27 PM]
+to trochę nie na temat, ale podpowiem, że kiedyś byłem na takim evencie: http:''offtopicarium.wikidot.com/ i było zajebiście. Potem się trochę popsuły, bo caly czas te same ludki jeździły. Myślę, że organizacja czegoś w tym kształcie byłaby ciekawa.
+
+traq [9:07 AM]
+@wojtek wymarzony space to czyste biurka i sprawne fotele na coworku
+
+amadeusz [10:34 AM]
+Trochę nie rozumiem mocnej reakcji @wojtek na @kuba. Właśnie coś takiego chcemy rozkręcić w każdy piątek. Ubolewam, że zostało to nazwane "Piąteczek z piwkiem/soczkiem w Hackerspejsie (dzień otwarty)", ponieważ nie oddaje to tego co chcemy osiągnąć :stuck_out_tongue: Tj. dzień kiedy zawsze będzie ktoś w spejsie, najlepiej członkowie, ale też ludzie z zewnątrz - robiąc swoje projekty, ucząc się, grając w planszówki czy wciągając pizzę. Chociaż wciąż się zastanawiam czy piątek to odpowiedni dzień bo to jednak (wraz z tamtą nazwą) może sugerować imprezkę. Poza tym myśleliśmy z @olo i @whoami o takich nazwach jak "Hackerspace Day", "Hackday"/"Hack Day" lub "Open Day" (super jakby przedłużeniem takiego dnia był jeszcze "NightHack"). Wydaje mi się, że "Dzień otwarty" ściągał tylko nowych ludzi, a członkowie nie wydawali się zainteresowani.
+I to też jest moja wizja spejsu: sporo osób jednego dnia robi mnóstwo ciekawych rzeczy w przystosowanej do tego przestrzeni (pufy, sprzątnięte biurka, wygodne fotele, rzutnik/telewizor na jakiś film, miejsce na projekty, planszówki). W pozostałe dni mamy miejsce i czas na dodatkowe projekt/eventy, które powstaną w naszych głowach (Python Hacking, Data Science, BioHS and the like). Duże eventy to dla mnie naturalna konsekwencja tych dwóch pierwszych elementów.
+
+justdzasta [10:52 AM]
+Ja może wyjdę na pierdolniętą, ale lubię przebywać w uporządkowanej przestrzeni i czuć to mityczne zen. Toteż zgadzam się z @traq i @amadeusz, że potrzebujemy przestrzeni czystej i przystosowanej do wspólnej pracy (porządek, wygodne i sprawne siedziska, sprzęt audiowizualny gotowy do odpalenia itp). Niech faktycznie dzień otwarty będzie dniem, gdzie będziemy mogli posiedzieć ze sobą i *wspólnie spędzić w jakikolwiek sposób czas*. Bo chyba poniekąd o to chodzi, nie? Że się zaczęliśmy mijać w spejsie i spędzać za mało czasu na robieniu wspólnych rzeczy. Pamiętacie Hacknight tuż przed Wielkanocą? To właśnie byłaby dla mnie kwintesencja zajebistego dnia otwartego.
+
+zbyszko [9:43 AM]
+Idealny hackerspace:
+- każdy po sobie sprząta i jest czysto (najczęściej był chlew, jak przyjeżdżałem). Nie chodzi mi o pedantyczno-krystaliczną hiperczystość, tylko zwyczajny porządek, no ale kurwa jak się przyjeżdża i widzi jakieś pierdolone opakowania po czipsach/jednorazowe kubki plastikowe/syf na podłodze i stołach/burkach, to raczej nie zachęci nowych, a obecnych może zniechęcić. Wolność <> syf. Syf nie świadczy dobrze o HS.
+- wypieprzyć elektrozłom (mogę pomóc z wywiezieniem z pomocą Srebrnej Strzały).
+- nie nazywać otwartych dni/popołudni "Piątuniem z piweczuniem". "Hackday", "hackaday", "Pohakuj z nami" chyba bardziej oddają charakter takich spotkań? Nie ma problemu, żeby napisać poniżej "Przynieś ze sobą soczek/piwko/świnię, jeśli chcesz".
+- ja rzadko przyjeżdżam do spejsa, ale uprzejmie pozwoliłem sobie zabrać głos, bo kurwa ciągle siedziałem cicho i zacząłem ostatnio myśleć o odejściu z HS.Gdzieś kiedyś pojawił się głos, że z warsztatu rzadko ktoś korzysta, i że może by go tak zlikwidować czy coś. W warsztacie był chlew, jak przychodziłem, a odkurzacz chyba jest i chyba nawet działa. Narzędzia są porozrzucane - jeśli problem z porządkiem wynika z braku narzędziowników, to możemy to ogarnąć (w sensie ja i ktoś jeszcze, jeśli zechce).
+
+yazjack [2:17 PM]
+@zbyszko jest ścianka narzędziowa, tylko trudno wyegzekwować korzystanie. Mi się już przejadło sprzątanie po innych i wieszanie chujów na bałaganiarzach. Mam wyjebane
+
+amadeusz [3:49 PM]
+Dobre praktyki korzystania ze spejsu będą się rodzić w bólach i zajmie to trochę czasu. I tak jest lepiej niż kiedyś.
+Mam nadzieję, że jeżeli będziemy się spotykali większą grupą co piątek to z czasem wejdzie nam w nawyk lekkie ogarnięcie przed i po spotkaniu. Wczoraj odkurzyliśmy i umylismy podłogę. 15 minut.

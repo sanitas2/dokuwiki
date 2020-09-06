@@ -1,0 +1,12 @@
+====== Arthur ======
+
+^Zamieszany|[[user>allgreed]]  |
+^Rozpoczęto|2019-11-01  |
+^Status|{{tag>planowany}}  |
+^Tagi|{{tag>projekt}}  |
+
+// Opis projektu, abstrakt //
+
+===== Worklog =====
+
+hp proliant dl380 g7

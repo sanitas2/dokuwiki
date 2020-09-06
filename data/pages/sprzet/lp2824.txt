@@ -1,0 +1,11 @@
+====== Zebra lp2824 ======
+ To taka słodka mała drukarka termiczna
+
+https://github.com/cod3monk/zpl
+
+programowanie w ZPL
+https://www.zebra.com/us/en/support-downloads/knowledge-articles/zpl-command-information-and-details.html
+
+===== komunikacja =====
+
+''lp -h 10.14.10.133:631 -d Zebra_LP2824 -o raw example.epl''

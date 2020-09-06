@@ -1,0 +1,20 @@
+1. Space Apps challenge
+* nie ma lokalizacji
+
+2. Członkowie rady:
+* update listy członków, żeby było wiadomo do kogo uderzać po okejki i żeby było zgodne z rzeczywistością
+* do usunięcia: upgrade, jakub
+* usunął się mróz ostatnio sam
+
+3. Piątki
+* działają, kontynuujmy
+
+4. Zlot HSu:
+* w listopadzie, jeszcze ogarniemy dzień
+
+5. Czy Pani Ola ma ogarniać też HS:
+* tak, bo płacimy za nią
+
+6. Klucz do sali meetupowej
+* olać
+* powinniśmy rezerwować meetup na piątki

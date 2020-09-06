@@ -1,0 +1,42 @@
+= Pompa perystaltyczna =
+{| class="wikitable sortable" border=1
+!Zamieszany|[[user>yazjack]]|
+|-
+|}
+{| class="wikitable sortable" border=1
+!Rozpoczęto|2018-00-00  |
+|-
+| 
+|-
+|}
+{| class="wikitable sortable" border=1
+!Status|{{tag>Planowany}}|
+|-
+| 
+|-
+|}
+
+=== Założenia ===
+Pompa perystaltyczna (in. pompa przewodowa) to typ pompy, w której płyn przemieszczany jest za pomocą trzech rolek przesuwających się po łuku elastycznej rurki. W połączeniu z silnikiem krokowym lub DC z enkoderem jest dość dokładnym sposobem na przepompowywanie płynów.
+
+=== Iteracje ===
+FIXME
+
+== Wykonanie ==
+FIXME
+
+=== Hardware ===
+* rurka silikonowa
+* parę śrub i nakrętek
+* opcjonalnie małe łożyska, jeśli ma podziałać
+* drukarka 3D
+=== Kod ===
+FIXME
+
+=== Kosztorys ===
+kilkanaście złotych
+
+=== Worklog ===
+FIXME
+
+== Możliwości rozwoju projektu ==

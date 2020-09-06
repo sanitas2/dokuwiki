@@ -1,0 +1,32 @@
+====== Brainfuk visor ======
+
+^Status|{{tag>w_realizacji}}  |
+^Tagi|{{tag>projekt zabawki}}  |
+
+aka symulator studenta.
+
+==== TODO: poprawny format stronki projektu. ====
+NIE używać urządzenia przed pisaniem.
+
+{{ :projekty:brainfuk01.jpg?direct |}}
+
+Psychodeliczny kalejdoskop...
+
+{{ :projekty:brainfuk02.jpg?direct |}}
+{{ :projekty:brainfuk02b1.mp4 |}}
+
+i mózgotrzepne błyskanie:
+
+{{ :projekty:brainfuk03.jpg?direct |}}
+{{ :projekty:brainfuk03b1.mp4 |}}
+
+
+
+==== Jak używać: ====
+Podłącz przez gniazdo słuchawkowe telefon odtwarzający głośno ten plik audio:
+[[https://drive.google.com/open?id=1vfht9jwJ2fumkFTQJcI_-q8Wddtvd_fD|{{ :projekty:brainfuck_primes.png?direct |}}]]
+Włącz przycisk na górze oksów i je załóż.
+
+Lub stwórz własne audio: zacznij od wygenerowania tonu  ok. 4Hz
+
+Jeśli jeszcze stoisz pionowo i utrzymałeś treść żołądkową, to doda się słuchawki z czymś wrednym ;)

@@ -1,0 +1,81 @@
+= Squire =
+
+{| class="wikitable sortable" border=1
+!Zamieszany|[[user>allgreed|allgreed]]  |
+|-
+|}
+{| class="wikitable sortable" border=1
+!Rozpoczęto|2018-03-23  |
+|-
+| 
+|-
+|}
+{| class="wikitable sortable" border=1
+!Status|{{tag>stoi}} [[:poradniki/dns_client|squire.hs]]|
+|-
+| 
+|-
+|}
+{| class="wikitable sortable" border=1
+!Tagi|{{tag>infrastruktura}}|
+|-
+| 
+|-
+|}
+{| class="wikitable sortable" border=1
+!Repo| [[https:''github.com/hs3city/squire]] |
+|-
+| 
+|-
+|}
+{| class="wikitable sortable" border=1
+!Hostname|squire.hs |
+|-
+| 
+|-
+|}
+
+
+== Usługi ==
+* <del>[[https:''github.com/alexwhen/docker-2048|2048]]</del>
+* <del>koparka monero</del>
+* [[projekty:whois|whois / at.hs3.pl]]
+* [[projekty:hackmd|hackmd]]
+== Hardware ==
+{{  :fota_serwera_hs0.jpg?200|}}
+
+* CPU: AMD A4-5000 APU with Radeon HD Graphics @ 1.5GHz
+* GPU: AMD/ATI Kabini [Radeon HD 8330] 
+* RAM: 8GiB
+
+== Maintainer ==
+
+Jak chcecie coś postawić to odzywajcie się na Slacku do [[user>allgreed|allgreed]] lub [[user>yasiu|yasiu]]
+== Konwencja stawiania rzeczy ==
+# obraz kontenera z apką w jakimś dostępny ze squire'a repo
+# PR z Nomadfile'em do repo z konfiguracją
+# merge
+# dźganie maintainera, żeby puścił skrypt
+
+
+== Worklog ==
+
+Ciekawe czy ze wszystkich trucheł laptopów w HSie można złożyć 1 działający i kopać na nim monero for kicks? Pewnie, że można :D
+ --- ''[[user>allgreed]] dawno''
+
+Ciekawe czy można ubić koparkę allgreeda i postawić [[projekty:whois|coś sensownego]]  na tym sprzęcie, skoro i tak już chodzi...
+ --- ''[[user>not7cd]] kiedyś później''
+
+Hurr, durr, niemutowalna infrastruktura!
+ --- ''[[user>allgreed]] kiedyś wcześniej''
+
+Zrobione porządnie na Nomadzie i Ansible'u w całości + wyczyściłem klapę
+ --- ''[[user>allgreed]] 2019/04/28 17:06''
+
+Postawiona pierwsza nowa usługa - tj. [[https:''github.com/thelounge/thelounge|bouncer IRC]], zajęło mi to jakieś 15 minut == Nomad się sprawdza
+--- ''[[user>allgreed]] 2019/05/01 15:04''
+
+[[https:''bin.at.hs3.pl/|pastebin]] postawiony przez kokordynatora serwera w osobie [[user>yasiu]] --- ''[[user>allgreed]] 2019/05/23 20:49''
+== Nice to have / help needed ==
+* Heh, backupy xD
+* monitorowanie uptime'u i altery jeśli padnie == https:''www.statuscake.com/pricing + alerty na Slacka?

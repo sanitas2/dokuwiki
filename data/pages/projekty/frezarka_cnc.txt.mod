@@ -1,0 +1,147 @@
+= Frezarka CNC =
+
+{| class="wikitable sortable" border=1
+!Zamieszany|[[user>yazjack]]  |
+|-
+|}
+{| class="wikitable sortable" border=1
+!Rozpoczęto|2019-03-16  |
+|-
+| 
+|-
+|}
+{| class="wikitable sortable" border=1
+!Status|{{tag>stoi}}  |
+|-
+| 
+|-
+|}
+{| class="wikitable sortable" border=1
+!Tagi|{{tag>projekt hardware}}  |
+|-
+| 
+|-
+|}
+
+Modernizacja frezarki CNC
+* wymiana części mechaniki i elektroniki
+* zamiana kontrolera na open source
+
+'''NIE TYKAĆ USTAWIEŃ GRBL JEŚLI SIĘ NIE ZNASZ !!!1jeden'''
+
+'''NIE MA JESZCZE DOKŁADNEJ KALIBRACJI, NIE SPODZIEWAĆ SIĘ SUPER PRECYZJI'''
+== Worklog ==
+11.03.2019
+* przeniesienie w kąt cooworku
+
+12.03.2019 
+* podłączenie sterownika GRBL 1.1 + CNC SHIELD V3 + A4988
+* testy uruchomieniowe
+
+13.03.2019 
+* kalibracja silników
+* kalibracja osi
+
+14-15.03.2019 
+* wymiana okablowania silników na czterożyłowe, kolorowe przewody 0.5mm (były 1.5mm sznury, zupełnie niepotrzebne, 0.5mm może pociągnąć do 6A, silniki mamy 2A)
+* rozdzielenie szeregowego podłączenia end stopów na poszczególne linie przewodów -X, X, -Y, Y, -Z, Z
+* spawany, stalowy uchwyt do nakrętki trapezowej pod stołem (wyrwałem z płyty wiórowej przy demontażu)
+* przerzucenie end stopów z montażu pod blatem na ramę, dla ułatwienia dostępu
+* wymiana wtyczek do silników na cnc shield na debiloodporne
+
+16.03.2019
+* Wrzucenie przewodów osi XZ i wrzeciona do prowadnicy kabli
+
+18.03.2019
+* wymiana zasilacza na taki, który będzie w stanie dostarczyć prąd do silników (mamy 0.5A..., zamienię na 8A)
+* przerzucenie end stopów XZ w bardziej dostępne i mniej ruchawe miejsca
+
+19.03.2019
+* montaż nowych silników (wszystkie silniki będą wymienione te same modele) i docięcie nowych dystansów
+* terminacja przewodów za silnikami na szybkozłączkach
+* wymiana A4988 na nowe
+* dalsza kalibracja i testy uruchomieniowe
+
+20.03.2019
+* problem z działaniem silników na niskim feedzie rozwiązany, działa poprawnie przy 4 microsteppach. Minimalny feed to teraz około 100mm/min
+* problem z działaniem silnika osi Z rozwiązany. Losowy kierunek obracania silnikiem był spowodowany brakiem ciągłości obwodu na jednej z żył zasilania silnika. Wymiana zacisków i wtyczek z obu stron po teście ciągłości obwodu.
+* <del>rozwiązanie problemu ze śpiewającymi end stopami, kondensatory dały radę, jest problem z przewodami +X</del>
+
+
+21.03.2019
+* kolejne zmiany ustawień sprzętu. Microstepping podniesiony do 8, teraz minimalny feed rate to 40 bez nadmiernego śpiewania. Zalecam 50, już i tak wchodzimy w prędkości do cięcia metalu. MDF spokojnie leci na 500, sklejkę robiłem na 200-300. Jog sprzętowo ograniczony do 1000, i tak dość szybko się nawiguje po obszarze roboczym.
+* poprawione przewody na end stop +X
+* okazuje się, że coś jest pozmieniane w GRBL 1.1 jeśli chodzi o end stopy Z i nie do końca się dogaduje z CNC Shieldem. W ekefcie nie mamy wspieranych endów na Z, hardwareowo wszystko gra.
+* obudowa srobudowa, poprzykręcałem wszystko do boku frezarki, działa i co mi zrobicie.
+* zamontowane łożyska stożkowe na osiach XY. Nie było łożyska z wew. fi 10mm więc jest 15mm i wałek śmiga na podkładkach o właściwej średnicy wewnątrz łożyska. Rozwiązanie jest prowizoryczne czyli zostanie na długi czas. Można rozważyć toczenie adapterów, ale na razie działa.
+* okazuje się, że end stopy nie chcą współpracować w sposób przewidywalny, kondensatory jednak nie dały rady. Będzie trzeba zrobić na optoizolaorach jak sugerują na wiki GRBL.
+* nie działa homing z poziomu bCNC, wobec braku stabilnie działających end stopów jest to problem drugorzędny. Później pogadam bezpośrednio z arduino a jak nie da rady to przeflashuję (przy okazji przemapuję piny żeby end stopy Z działały)
+
+22.03.2019
+* Układ do odszumiania krańcówek na transoptorach jest już zlutowany i czeka na podłączenie
+* mały setback, zamontowałem puszkę na elektronikę i wszystko odłączyłem od płytki. Sprawdzę czy wszystko działa i polutuję przewody do shielda żeby nie było jaj że stabilnością podłączeń w puszce
+* wywierciłem w puszce za duże otwory na przewody, wykorzystam je na wentylację a na przewody wywiercę nowe
+* przekaźnik do wrzeciona razem z radiatorem zamontowane w puszce
+
+23.03.2019
+* poprawki w układzie do odszumiania. Nigdy nie jest za późno, żeby zauważyć że jest się upośledzonym
+* podłączenie i testy przekaźnika do załączania wrzeciona. Śmiga
+* modyfikacje puszki
+* wymiana Arduino na oryginalne, flash zmodyfikowanego firmware (już widzi end stopy Z)
+
+24.03.2019
+* End stopy działają, homeing działa
+* ostatnie poprawki w układzie odszumiania
+* część przewodów przylutowana do płytek
+* reszta przewodów ordynarnie wciśnięta do obudowy
+* wiatrak zamontowany
+* przewody na zewnątrz opanowane
+* frez złamany
+== TODO ==
+* zaprojektowanie i dodanie uchwytu na odciąg wiórów
+* poskracać przewody i przylutować do shielda i płytki
+* fizyczny przycisk awaryjny
+
+== Software ==
+
+[[https:''github.com/vlachoudis/bCNC|bCNC]] - crossplatform, nawigacja i ustawienia frezarki, polecany do GRBL, podstawowe opcje CAM i edytor GCode
+
+[[https:''winder.github.io/ugs_website/|Universal GCode Sender]] - crossplatform, j.w., trochę uboższy w funkcje w wersji podstawowej, ale bazuje na pluginach
+
+[[http:''pycam.sourceforge.net/|PyCAM]] - crossplatform, CAM, generator gcode
+
+jscut.org
+makercam.com
+
+== Hardware ==
+* CNCSHIELD V3 - zworki na 8 microsteppów, oś Z rozdzielona na 2 sterowniki (będę zmieniać w razie potrzeby)<del>, end stopy N/O z kondensatorami żeby nie śpiewały jak głupie</del>
+* Arduino UNO - GRBL 1.1
+* 4x A4988
+* 3x 23km-k381 24V 2A - bipolar podpięte na unipolar
+* AC/DC 24V 6.5A
+* USB Camera - do podlądu przy pozycjonowaniu materiału
+* Kress 800 FME - collet 3.175mm (1/8'')
+
+== Możliwości rozwoju ==
+* Przyciski sterowania pause, resume, stop
+* sterowanie prędkością wrzeciona
+
+
+== Przydatne ==
+[[http:''www.zyltech.com/arduino-cnc-shield-instructions/|Dokumentacja CNCShield]]
+
+[[https:''github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration|Konfiguracja GRBL]]
+
+[[https:''github.com/grbl/grbl/wiki/Using-Grbl|Użytkowanie GRBL]]
+
+[[https:''github.com/gnea/grbl/wiki|Wiki GRBL]]
+
+[[https:''wiki.shapeoko.com/index.php/Spindle_Control|Spindle PWM project]]
+
+[[https:''sites.google.com/site/klaasdc/cnc-router/spindle-controller|Spindle PWM and RPM like a pro]]
+
+[[https:''youtu.be/kYFNUQgE26E|Ghetto spindle controller, me likey]]
+
+https:''www.instructables.com/id/End-Stop-Limit-Switch-Problems/
+
+https:''github.com/gnea/grbl/wiki/Wiring-Limit-Switches

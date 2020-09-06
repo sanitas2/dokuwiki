@@ -1,0 +1,13 @@
+a:6:{s:4:"user";a:3:{s:2:"id";s:6:"not7cd";s:4:"name";s:13:"Norbert Szulc";s:4:"mail";s:18:"norbert@not7cd.net";}s:4:"date";a:3:{s:3:"due";N;s:7:"created";i:1524508685;s:8:"modified";i:1524508688;}s:8:"priority";i:0;s:6:"status";s:1:"0";s:5:"vtodo";s:417:"BEGIN:VTODO
+UID:faq@wiki.hs3.pl
+URL:https://wiki.hs3.pl/faq
+SUMMARY:Często Zadawane Pytania
+DESCRIPTION:Często Zadawane Pytania\n\nFIXME\n\nCzy HACKERSPACE to potencjalne centrum dowodzenia nad światem?\n\n	*  tak\n	*  nie\n	*  nie wiem
+CREATED:20180423T183805Z
+LAST-MODIFIED:20180423T183808Z
+ORGANIZER;CN="Norbert Szulc":MAILTO:norbert@not7cd.net
+STATUS:NEEDS-ACTION
+PRIORITY:7
+CLASS:PUBLIC
+END:VTODO
+";s:3:"key";s:10:"a475491315";}

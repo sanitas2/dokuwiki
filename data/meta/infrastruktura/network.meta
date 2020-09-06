@@ -1,0 +1,11 @@
+a:2:{s:7:"current";a:10:{s:4:"date";a:2:{s:7:"created";i:1568130168;s:8:"modified";i:1569514996;}s:7:"creator";s:18:"Marcin Jasiukowicz";s:4:"user";s:5:"yasiu";s:11:"last_change";a:8:{s:4:"date";i:1569514996;s:2:"ip";s:14:"213.192.75.118";s:4:"type";s:1:"E";s:2:"id";s:22:"infrastruktura:network";s:4:"user";s:6:"not7cd";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-13;}s:11:"contributor";a:2:{s:5:"yasiu";s:18:"Marcin Jasiukowicz";s:6:"not7cd";s:7:"Norbert";}s:5:"title";s:10:"Plan Sieci";s:11:"description";a:2:{s:15:"tableofcontents";a:5:{i:0;a:4:{s:3:"hid";s:10:"plan_sieci";s:5:"title";s:10:"Plan Sieci";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:19:"rezerwacja_podsieci";s:5:"title";s:19:"Rezerwacja podsieci";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:15:"section10140016";s:5:"title";s:12:"10.14.0.0/16";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:13:"rezerwacja_ip";s:5:"title";s:13:"Rezerwacja IP";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:4;a:4:{s:3:"hid";s:15:"section10144024";s:5:"title";s:12:"10.14.4.0/24";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:358:"Plan Sieci
+
+infrastruktura
+
+----------
+
+Infrastruktura która zapewnia członkom HS dostęp do internetu. Nie mylić z lab sieciowy.
+
+Adresacja sieci 10.14.0.0/16 na razie proponowana przez HSWAN
+
+	" (6) It is easier to move a problem around (for example, by moving the problem to a different part of the overall network architecture) than it is to solve it.";}s:7:"subject";a:1:{i:0;s:14:"infrastruktura";}s:8:"relation";a:2:{s:10:"references";a:3:{s:18:"tag:infrastruktura";b:0;s:27:"infrastruktura:lab_sieciowy";b:1;s:27:"projekty:serwer_na_laptopie";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1568130168;s:8:"modified";i:1569514996;}s:7:"creator";s:18:"Marcin Jasiukowicz";s:4:"user";s:5:"yasiu";s:11:"last_change";a:8:{s:4:"date";i:1569514996;s:2:"ip";s:14:"213.192.75.118";s:4:"type";s:1:"E";s:2:"id";s:22:"infrastruktura:network";s:4:"user";s:6:"not7cd";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-13;}s:11:"contributor";a:2:{s:5:"yasiu";s:18:"Marcin Jasiukowicz";s:6:"not7cd";s:7:"Norbert";}}}

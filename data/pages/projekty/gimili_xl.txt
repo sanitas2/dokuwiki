@@ -1,0 +1,11 @@
+====== Gimili XL ======
+
+^Zamieszany|niewiadomo  |
+^Zakończono|2017-05-13  |
+^Status|{{tag>zakonczony}}  |
+^Tagi|{{tag>projekt}}  |
+^Spotkania|[[https://www.meetup.com/hs3city/events/239461494/|meetup]]  |
+
+Drukarka złożona wspólnymi siłami na początku istnienia HS.
+
+Obecnie nie jest funkcjonalna i wymaga gruntownego serwisu. Brakuje również plików konfiguracyjnych, ponieważ nie są udostępnione.

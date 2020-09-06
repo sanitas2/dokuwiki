@@ -1,0 +1,13 @@
+====== Bilanse ======
+
+Bilanse dodawane programatycznie przy pomocy skryptu
+
+----
+   
+===== 2018.5 =====
+
+|  income    |   200     |
+|  expenses  |  -100     |
+|  balance   |  4878.98  |
+
+

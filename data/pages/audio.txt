@@ -1,0 +1,31 @@
+===== Sprzęt Audio =====
+{{tag>sprzęt}}
+----
+
+==== Procedura uruchamiania ====
+
+  - Ustaw głośność na ZERO !
+  - Włącz listwę zasilającą
+  - Włącz wzmacniacz
+
+==== Wzmacniacz Denon ====
+
+Podłączone źródła:
+  * TV/VDP - TV ([[sprzęt:chromecast]])
+  * CD - Bluetooth
+
+
+==== Bluetooth ====
+
+Courtesy [[user>olo]]. Klikasz i parujesz.
+
+==== Walkman ====
+Courtesy [[user>allgreed]]
+ 
+==== Gramofon ====
+
+Kiedyś był gramofon, ale przyszedł [[user>wolskey]] i wziął :(
+
+==== Głośniki ====
+
+Był kiedyś [[user>puś]] i prawie popsuł. Ale działają. Postaraj się tego nie zmieniać.

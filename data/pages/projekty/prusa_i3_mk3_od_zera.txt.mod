@@ -1,0 +1,45 @@
+= Prusa i3 MK3S od zera =
+
+{| class="wikitable sortable" border=1
+!Zamieszany|[[user>not7cd]]  |
+|-
+|}
+{| class="wikitable sortable" border=1
+!Rozpoczęto|2019-05-12  |
+|-
+| 
+|-
+|}
+{| class="wikitable sortable" border=1
+!Status|{{tag>planowany}}  |
+|-
+| 
+|-
+|}
+{| class="wikitable sortable" border=1
+!Tagi|{{tag>projekt}}  |
+|-
+| 
+|-
+|}
+
+Obecna [[projekty:prusa_i3|Prusa i3 MK2]] sprawuje się wzorowo. Nie zmienia to faktu, że zawsze może być lepiej i na HS mogą być 2 drukarki 3D o tej samej konstrukcji. Projekt ma wykorzystać doświadczenie zdobyte podczas przebudowy otrzymanej Prusy MK0 do MK2S i zwiększyć ogólne możliwości produkcji w HS. Wszystkie części powinny zostać wydrukowane na przebudowanej MK2S. Będzie to platforma testowa pod nowy ekstruder MK3, który może trafić na do MK2S i zwiększyć jej możliwości. Ekstruder MK3 otwiera też furtkę do MMU2, który pozwoliłby na wykorzystanie pełnej kolekcji filamentów będących na stanie HS.
+
+Dlaczego druga drukarka, a nie kolejny upgrade do MK2S? Szkoda rozbierać coś co działa. Zamawiana jest nowa rama która jest największą zmianą w MK3. Mamy też sporo części pod ręką które starczą na drugą sztukę. A poza tym, coś musi wyprodukować drugą drukarkę.
+
+== BOM ==
+
+{| class="wikitable sortable" border=1
+|  Klon ramy + bed'a + 4 profile do MK3  ||  $ 83.85  ||  [[https:''pl.aliexpress.com/item/Klon-oryginalny-Prusa-i3-MK3-3D-cz-ci-drukarki-ramka-ze-stopu-aluminium-Y-przew-z/32910668206.html?spm=a2g0s.9042311.0.0.71f45c0fRRUDMU || ali]] 
+|-
+|}
+
+== Linki i inne bzdury ==
+
+MMU2
+https:''github.com/cskozlowski/mmu2
+
+MK3S
+http:''theprusamk3clone.blogspot.com/
+
+== Worklog ==

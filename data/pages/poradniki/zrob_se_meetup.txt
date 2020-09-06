@@ -1,0 +1,34 @@
+====== Jak zrobić wydarzenie w Hakerspejsie? ======
+{{tag>poradnik}}
+----
+Chcesz zrobić wydarzenie w HSie, ale nie wiesz jak? Ta strona jest dla Ciebie!
+
+W Hackerspace organizujemy spotkania w dwóch pomieszczeniach:
+  * Coworku, wydzielonej przestrzeni połączonej z warsztatem, więc zawsze dostępnej dla członków, mieszczącej do 12 osób, przeznaczonej na mniejsze spotkania otwarte
+  * Sali meetupowej, osobnej sali mieszczącej do 60 osób, przeznaczonej na większe wydarzenia otwarte jak i zamknięte
+
+Aby móc organizować wydarzenia w Hackerspace należy być jego członkiem lub organizacją z nim współpracującą. 
+
+  * [[organizacja:członkostwo|Zostań Członkiem™]] 
+  * Współpraca
+
+===== Kwestie formalne =====
+
+  - Klucznik - W trakcie wydarzenia w budynku musi znajdować się przynajmniej jeden członek Hackerspace, pełniący na ten czas rolę klucznika, czyli osoby która zamknie i zabezpieczy lokal po wydarzeniu.
+  - Tytuł i opis -  Aby umieścić wydarzenie w kalendarzu potrzebujemy jego tytułu oraz opisu. Nie muszą to być rozbudowane wpisy, ważne aby były informatywne. W ramach inspiracji warto zajrzeć na wcześniejsze wydarzenia.
+  - Termin w kalendarzu - Sprawdź [[http://hs3.pl/calendar/ | HSowy kalendarz]] oraz [[https://codeme.pl/sala-meetupowa/ | Code:me]] (dla sali meetupowej) i wybierz termin, w którym jedna z sal będzie wolna.
+  - Rezerwacja w kalendarzu - Zamieść swoje wydarzenie wraz z tagiem @amadeusz na kanale #wydarzenia na naszym [[https://hs3city.slack.com/ | Slacku]]. Upewnij się, że Twoja wiadomość zawiera:
+    * tytuł
+    * opis
+    * datę
+    * godzinę
+    * magiczną frazę, np. "proszę", "drogi Amadeuszu"
+  - Amadeusz (@amadeusz) następnie założy wydarzenie na Meetupie, Facebooku i ustawi rezerwację w HSowym kalendarzu. Warto zaglądać na kanał #wydarzenia aby w razie czego podać dodatkowe informacje.
+
+==== FAQ ====
+
+^ Pytania                  ^ Odpowiedzi                       ^
+| Jak rozbudowany musi być opis? | Nie mamy konkretnej formuły. Dobrze aby opis w prosty sposób przedstawiał główne założenia spotkania. Warto również podać wymagany poziom wiedzy lub doświadczenia, nawet jeśli można przyjść z zerowym |
+| Co jeśli nie ma odpowiedzi na moją rezerwację na #wydarzenia? | Upewnij się, że: wiadomość zawiera wszystkie niezbędne element, od jej wysłania minął jakiś rozsądny interwał (np. 24h), rezerwujesz z minimum tygodniowym wyprzedzeniem. Jeśli tak to spróbuj **raz** spingować ponownie Klarę linkując do swojej ostatniej wiadomości. Możliwe, że przeoczyła. Klara też człowiek. |
+
+Dodatkowe pomocne informacje: [[poradniki:organizacja_warsztatow|porady na warsztaty/hackathony]].

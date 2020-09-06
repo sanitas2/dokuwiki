@@ -1,0 +1,9 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1512906029;s:8:"modified";i:1568319281;}s:7:"creator";s:13:"Norbert Szulc";s:4:"user";s:6:"not7cd";s:11:"last_change";a:8:{s:4:"date";i:1568319281;s:2:"ip";s:15:"176.221.120.219";s:4:"type";s:1:"E";s:2:"id";s:11:"rejestracja";s:4:"user";s:5:"yasiu";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-4;}s:11:"contributor";a:2:{s:6:"not7cd";s:7:"Norbert";s:5:"yasiu";s:18:"Marcin Jasiukowicz";}s:5:"title";s:17:"Zakładanie konta";s:11:"description";a:2:{s:15:"tableofcontents";a:1:{i:0;a:4:{s:3:"hid";s:16:"zakladanie_konta";s:5:"title";s:17:"Zakładanie konta";s:4:"type";s:2:"ul";s:5:"level";i:1;}}s:8:"abstract";s:294:"Zakładanie konta
+
+To tu to tymczasowa strona. W domyśle, członkowie powinni móc logować się przy pomocy LDAP.
+
+Aby pomóc w stawianiu tej infrastruktury rób raban na slacku.
+
+----------
+
+W międzyczasie, do dreat lub not7cd na slacku podaj następujące dane, a zostanie dany Ci dostęp.";}s:8:"relation";a:2:{s:10:"references";a:2:{s:13:"projekty:ldap";b:1;s:10:"wiki:start";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1512906029;s:8:"modified";i:1568319281;}s:7:"creator";s:13:"Norbert Szulc";s:4:"user";s:6:"not7cd";s:11:"last_change";a:8:{s:4:"date";i:1568319281;s:2:"ip";s:15:"176.221.120.219";s:4:"type";s:1:"E";s:2:"id";s:11:"rejestracja";s:4:"user";s:5:"yasiu";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-4;}s:11:"contributor";a:2:{s:6:"not7cd";s:7:"Norbert";s:5:"yasiu";s:18:"Marcin Jasiukowicz";}}}

@@ -1,0 +1,9 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1511633849;s:8:"modified";i:1511951556;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";b:0;s:11:"contributor";a:2:{s:7:"yazjack";s:2:"JH";s:6:"not7cd";s:13:"Norbert Szulc";}s:5:"title";s:43:"Stół do obróbki drewna, metali i tworzyw";s:11:"description";a:2:{s:15:"tableofcontents";a:4:{i:0;a:4:{s:3:"hid";s:39:"stol_do_obrobki_drewna_metali_i_tworzyw";s:5:"title";s:43:"Stół do obróbki drewna, metali i tworzyw";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:8:"abstrakt";s:5:"title";s:8:"Abstrakt";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:19:"potrzebne_materialy";s:5:"title";s:20:"Potrzebne Materiały";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:19:"orientacyjny_budzet";s:5:"title";s:20:"Orientacyjny budżet";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:314:"Stół do obróbki drewna, metali i tworzyw
+
+Abstrakt
+
+Stół pod cięższe narzędzia, imadła i do brudniejszej roboty, konstrukcyjnie podobny do Stół warsztatowy do elektroniki.
+
+Trzeba będzie łatać blat z 2 płyt bo maksymalna długość płyty to 2.5m.
+
+Do rozważenia stalowa część blatu do spawania.";}s:8:"relation";a:2:{s:10:"references";a:1:{s:31:"stol_warsztatowy_do_elektroniki";b:1;}s:10:"firstimage";s:148:"https://trello-attachments.s3.amazonaws.com/5a156db2be9d8433cfe1eaaa/5a157dee8214f7b93df63289/86ddc2da9dd25c940b2df72e4520e0b1/st%C3%B3%C5%82_2_.jpg";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1511633849;s:8:"modified";i:1511951556;}s:4:"user";s:0:"";s:7:"creator";s:0:"";s:11:"last_change";b:0;s:11:"contributor";a:2:{s:7:"yazjack";s:2:"JH";s:6:"not7cd";s:13:"Norbert Szulc";}}}

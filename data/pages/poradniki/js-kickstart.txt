@@ -1,0 +1,139 @@
+===== Java Script Kickstart =====
+{{tag>poradnik}}
+
+Ta strona zawiera rzeczy, z których ja się uczyłem systemu nodowego.
+Poznasz tutaj bleeding-edge technologies z 2020.
+
+==== Technologie ====
+
+
+=== JavaScript ===
+
+Javascript jest bazą wszystkiego. Na razie znalazłem ten tutorial, który wygląda jakby był naprawdę nowy:
+[[https://javascript.info/|Tutorial]]
+
+Jest niestety niezwykle rozległy, ale to dla mnie plus - warto go przejść najpierw po łebkach, a później używać jak słowniczek.
+
+=== Node ===
+
+Node jest standalone interpretatorem javascriptu, który można odpalić sobie lokalnie na komputerze.\\
+Nie potrzebujemy do jego wykonania przeglądarki, ponieważ uruchamia kod na swoim własnym silniku.\\
+
+Zawiera też swoje własne klasy, które pozwalają pisać aplikacje działające bezpośrednio na systemie.\\
+By dowiedzieć się więcej, to warto pobieżnie przejrzeć [[ten tutorial|https://www.w3schools.com/nodejs/nodejs_intro.asp]].\\
+Nie warto w niego poważnie wchodzić, ponieważ jest zrobione dużo nakładek do omawianych tam technologii, które są po prostu lepsze.\\
+
+=== NPM ===
+
+Npm to node package manager. Pozwala nam on instalować biblioteki do użycia z nodem.\\
+By zrozumieć jak działa i po co nam on, to warto przeczytać [[ten ustęp|https://www.tutorialspoint.com/nodejs/nodejs_npm.htm]].\\
+Jeżeli chcemy poznać możliwe wykorzystania npma poza paczkami, to warto zacząć od [[używania npm|https://docs.npmjs.com/cli-documentation/using-npm]], a potem przejść dalej do [[dokumentacji cli|https://docs.npmjs.com/cli-documentation/]], by na koniec przeczytać [[resztę dokumentacji|https://docs.npmjs.com/]], która nie jest już taka interesująca.
+
+=== Typescript ===
+
+Typescript jest rozszerzeniem JavaScriptu, który dodaje typowanie.\\
+Ułatwia to bardzo pisanie kodu, bo nie popełnimy głupich błędów z typami.\\  
+Warto przeczytać te linki dopiero po zapoznaniu się z JavaScriptem.\\
+
+`typescript` jest też dependencją npma, która dodaje nam komendę `tsc`.\\
+Za jej pomocą możemy kompilować kod `.ts` do `.js`, który można normalnie odpalić node.\\
+W normalnym użytkowaniu kodu możemy zainstalować depkę `ts-node` i odpalać pliki typescriptu za pomocą `npx ts-node <plik.ts>`.\\
+Warto pamiętać o pliku [[tsconfig.json|https://www.typescriptlang.org/docs/handbook/tsconfig-json.html]], który można skonfigurować, by kompilator wiedział:
+- jak kompilować
+- gdzie wypluwać pliki
+- i inne...
+
+Bo zrozumieć [[https://dzone.com/articles/what-is-typescript-and-why-use-it|po co warto go używać]]
+
+By zrozumieć [[https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html|jak go używać]]
+
+By zrozumieć [[https://www.typescriptlang.org/docs/handbook/intro.html|go w pełni]]
+
+=== Jest ===
+
+Jest służy do pisania testów do javascriptu. By lepiej zrozumieć istotę pisania testów dla programistów, to warto sobie przeczytać [[https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530|TDD Kenta Becka]]. \\
+Według mnie to podejście jest o wiele lepsze niż pisanie cały czas printów w swoim kodzie i jeszcze nasz kod jest przetestowany :D.
+
+Jest ma bardzo fajne funkcyjne vibesy i poza tym warto sobie skonfigurować webstorma, by go obsługiwał [[https://blog.jetbrains.com/webstorm/2018/10/testing-with-jest-in-webstorm/|out of the box]].
+
+By zacząć używać jesta [[https://jestjs.io/docs/en/getting-started.html|przeczytaj to]].
+
+By skonfigurować go z typescriptem (bez babela), [[https://kulshekhar.github.io/ts-jest/user/config/|zerknij na to]].
+
+Reszta dokumentacji jest [[https://jestjs.io/docs/en/getting-started|tutaj]].
+
+=== Webpack ===
+
+Ecosystem node jest bardzo przyjemny do pisania. Wystarczy tylko zainstalować bibliotekę i ją zaimportować.\\
+Gdzie na naszym komputerze wszystko trzymamy na dysku i mamy zainstalowane całe środowisko developerskie,\\
+to kiedy ktoś chciałby użyć naszej aplikacji w przeglądarce, czy nawet u siebie na komputerze, to musiałby mieć wszystkie te zależności.
+
+Webpack jest bundlerem, co oznacza, że ze wszystkich plików, na których polegamy, może nam stworzyć jeden,\\
+który zawiera wszystko, co jest potrzebne do jego odpalenia.
+
+Dzięki temu możemy pisać nasz kod jakbyśmy pisali go w środowisku nodowym,\\
+a później cały projekt nibymagicznie zmienia się w jeden plik jsa.
+
+Webpack jest tak dużym projektem, że zawiera mnóstwo funkcjonalności, które można znaleźć w project managerach (np w javie "maven")
+i jest ogromnym ecosystemem samym w sobie, który pozwala integrować ze sobą różne funkcjonalności:
+
+Między innymi potrafi optymalizować nasz kod, używać CSSów w Reactie, zajmuje się integracją z preprocesorami CSS itd...
+
+Za pomocą webpacka i expressa będziemy mogli stworzyć nasz własny zamiennik do create-react-app,\\
+ który jest bardziej zrozumiały, konfigurowalny i pozwoli nam postawić backend razem z frontendem.
+
+Zerknij [[https://webpack.js.org/guides/getting-started/|tutaj]], by zacząć przygodę z WebPackiem.
+
+=== Express.js ===
+
+Express.js jest prostym, ale potężnym serwerem www dla node.\\
+Jest łatwo rozszerzalny, prosty i intuicyjny.
+
+Kiedy już się opanuje webpacka, to można go zintegrować z express.js,\\
+by zmiany w kodzie frontendowym były automatycznie propagowane do przeglądarki.\\
+(Poczytaj o [[https://webpack.js.org/configuration/dev-server/|dev-server]], a potem o[[https://webpack.js.org/concepts/hot-module-replacement/|Hot-Module-Reload]])
+
+Na początek przeczytaj [[https://expressjs.com/en/starter/installing.html|quickstart]], a potem:
+[[https://expressjs.com/en/guide/routing.html|guide]]
+
+(Przypis Redaktora: Jak Ja kocham express.js.\\
+Przy expressie annotacyjne opisywanie funkcji we Flasku, czy Django można sobie wsadzić między żarty xD.\\
+Nienawiść do pythona tak zostałem wychowany...)
+
+=== React ===
+
+Przed Reactem było jQuery, które pozwalało na interaktywną manipulację zawartości strony internetowej.\\
+Niestety utrzymywanie pożądanego stanu strony, przy wielu interakcjach użytkownika często graniczyło z cudem i było bardzo męczące.
+
+Dlatego powstał React, który pozwolił nam nie martwić się jak mamy osiągnąć pożądany stan, odbierając od nas tę odpowiedzialność.\\
+Reactowi podajemy tylko model, który chcemy, by nasza strona przedstawiała a on już w miare wydajnie doda, zmodyfikuje i usunie odpowiednie elementy.
+
+Jeżeli chcesz skorzystać z poprzedniej wiedzy do złożenia Reacta, to przeczytaj [[https://blog.usejournal.com/creating-a-react-app-from-scratch-f3c693b84658|tego guida]].
+
+Jeżeli nie czujesz się na siłach być ultrahackerem, to zacznij od [[https://reactjs.org/docs/getting-started.html|getting started]].
+
+Nie ważne, którą drogę wybierzesz... i tak musisz przejść przez [[https://reactjs.org/docs/hello-world.html|tutorial]].
+
+==== Zadania ====
+
+Tutaj znajdziesz fajne proste zadanka, które możesz wykonać, by poznać świat jsa.
+
+  * [ ] Odpal za pomocą node apkę, która wypisze hello world
+  * [ ] Zainicjalizuj paczkę w npmie
+  * [ ] Odpal skrypt z hello world za pomocą "npm start"
+  * [ ] Zainstaluj 'typescript' w swojej paczce
+  * [ ] Skonfiguruj tsconfig by komenda 'tsc' kompilowała typescript z folderu src/ do javascript w folderze build
+  * [ ] Stwórz skrypt w typescripcie, który zwraca md5 pliku podanego z lini poleceń (zaimportuj bibliotekę do md5)
+  * [ ] Stwórz test (np simple.test.js) używając biblioteki jest, który sprawdzi, że 2 + 2 = 4 i go odpal
+  * [ ] Skonfiguruj jesta, by mógł również odpalać testy napisane w typescripcie (np simple.test.ts)
+  * [ ] Skonfiguruj webpacka, by Twój skrypt w typescripcie zamieniał w jeden plik jsa, który może być wykonywany przez node bez ściągania zależności (pamiętaj by skonfigurować output na target = node).
+  * [ ] <Większe zadanie> Stwórz mały projekt, który będzie spełniać następujące funkcje
+    * [ ] Może być odpalony przez przeglądarkę (Użyj do tego webpacka [target=web], by spakował wszystkie zależności)
+    * [ ] Odpalony na stronie doda TextInput i Button (Poczytaj o document.body / JS DOM operations)
+    * [ ] Naciśnięty przycisk będzie podmieniać zawartość inputa na jego md5 (użyj pierwszej lepszej libki do md5 z javascriptu)
+    * [ ] Stwórz express.js, który będzie serwować tę stronę (serwuj statycznie pliki wygenerowane przez webpack, lub użyj webpack-dev-middleware)
+  * [ ] Zmodyfikuj poprzedni projekt, by używał Reacta.
+
+==== Q&A ====
+
+Tutaj będę dodawać wszystkie pytania, które pojawiały się do tego poradnika.

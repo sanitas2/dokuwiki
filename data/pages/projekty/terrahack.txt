@@ -1,0 +1,36 @@
+====== Terrahack ======
+
+^Zamieszany|[[user>not7cd]]  |
+^Rozpoczęto|2020-05-29  |
+^Status|{{tag>planowany}}  |
+^Tagi|{{tag>projekt}}  |
+
+Erm... to się zareklamowało na YT ostatnio.
+https://www.kickstarter.com/projects/terraplanter/terra-planter-the-inside-out-hydroponic-planter-pot
+Więc zainteresowałem się bo ładne. Ale w sumie nie wydawało się turbo oryginalnym patentem. Głównie wyróżnia się ciekwą geometrią. I potem wpadło to:
+https://www.youtube.com/watch?v=3_Jv9b94WOg
+
+oraz alternatywy dostępne w EU: https://www.roellke-orchideen.de/index.php/en/online-shop/equipment/clay-tubes
+
+Słowo klucz: terakota. Terraplanter ma kosztować prawie 80 USD, gdzie prostsze konstrukcje w podobnym rozmiarze kosztują 10 EUR. Główny wyróżnik to siatka na której mogą oprzeć się korzenie. I to jest coś co można zrobić w spejsie. Parametryczny design nie powinien być nam straszny.
+
+==== Motywacja ====
+Uhmn, wygląda spoko, ale drogie?
+
+===== Zaplecze i możliwości =====
+Nie mamy gdzie wypalać gliny, ale istnieje Gdańska Szkoła Artystyczna i Pałac Młodzieży, obie te instytucje prowadzą zajecia z ceramiki. Muszą mieć tym samym dostęp do piecy i know-how.
+
+Formy chyba są z gipsu, ale potrzeba by więcej R&D w tym temacie.
+
+3D design: OpenSCAD lub Blender + Sverchok
+
+Mamy osoby które interesuję się hydroponiką.
+===== Dalsze kroki =====
+  * Ściągnąć drogiego terraplantera z US do spejsu.
+  * Ściągnąć płaską alternatywę z DE do spejsu
+
+To jest taki projekt który będzie rozwijać się przez wieki, rok co najmniej.
+
+===== Ciekawe =====
+ https://www.wolvertonenvironmental.com/NASA-Report-89.pdf
+===== Worklog =====

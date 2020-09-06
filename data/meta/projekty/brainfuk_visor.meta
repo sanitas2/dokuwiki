@@ -1,0 +1,27 @@
+a:2:{s:7:"current";a:9:{s:4:"date";a:2:{s:7:"created";i:1583794022;s:8:"modified";i:1583794022;}s:7:"creator";s:18:"Mamert Stankiewicz";s:4:"user";s:6:"mamert";s:11:"last_change";a:8:{s:4:"date";i:1583794022;s:2:"ip";s:13:"89.67.123.174";s:4:"type";s:1:"C";s:2:"id";s:23:"projekty:brainfuk_visor";s:4:"user";s:6:"mamert";s:3:"sum";s:9:"utworzono";s:5:"extra";s:0:"";s:10:"sizechange";i:915;}s:5:"title";s:14:"Brainfuk visor";s:11:"description";a:2:{s:15:"tableofcontents";a:3:{i:0;a:4:{s:3:"hid";s:14:"brainfuk_visor";s:5:"title";s:14:"Brainfuk visor";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:36:"todopoprawny_format_stronki_projektu";s:5:"title";s:39:"TODO: poprawny format stronki projektu.";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:10:"jak_uzywac";s:5:"title";s:13:"Jak używać:";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:331:"Brainfuk visor
+Status
+w_realizacji
+Tagi
+projekt zabawki
+
+aka symulator studenta.
+
+TODO: poprawny format stronki projektu.
+
+NIE używać urządzenia przed pisaniem.
+
+
+
+Psychodeliczny kalejdoskop...
+
+
+
+
+i mózgotrzepne błyskanie:
+
+
+
+
+Jak używać:
+
+Podłącz przez gniazdo słuchawkowe telefon odtwarzający głośno ten plik audio:";}s:7:"subject";a:3:{i:0;s:12:"w_realizacji";i:1;s:7:"projekt";i:2;s:7:"zabawki";}s:8:"relation";a:3:{s:10:"references";a:3:{s:16:"tag:w_realizacji";b:0;s:11:"tag:projekt";b:0;s:11:"tag:zabawki";b:0;}s:5:"media";a:6:{s:23:"projekty:brainfuk01.jpg";b:1;s:23:"projekty:brainfuk02.jpg";b:1;s:25:"projekty:brainfuk02b1.mp4";b:1;s:23:"projekty:brainfuk03.jpg";b:1;s:25:"projekty:brainfuk03b1.mp4";b:1;s:29:"projekty:brainfuck_primes.png";b:1;}s:10:"firstimage";s:23:"projekty:brainfuk01.jpg";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:4:{s:4:"date";a:1:{s:7:"created";i:1583794022;}s:7:"creator";s:18:"Mamert Stankiewicz";s:4:"user";s:6:"mamert";s:11:"last_change";a:8:{s:4:"date";i:1583794022;s:2:"ip";s:13:"89.67.123.174";s:4:"type";s:1:"C";s:2:"id";s:23:"projekty:brainfuk_visor";s:4:"user";s:6:"mamert";s:3:"sum";s:9:"utworzono";s:5:"extra";s:0:"";s:10:"sizechange";i:915;}}}

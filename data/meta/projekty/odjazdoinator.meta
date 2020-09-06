@@ -1,0 +1,13 @@
+a:2:{s:7:"current";a:10:{s:4:"date";a:2:{s:7:"created";i:1520455223;s:8:"modified";i:1571341041;}s:7:"creator";s:13:"Norbert Szulc";s:4:"user";s:6:"not7cd";s:11:"last_change";a:8:{s:4:"date";i:1571341041;s:2:"ip";s:14:"213.192.75.118";s:4:"type";s:1:"E";s:2:"id";s:22:"projekty:odjazdoinator";s:4:"user";s:5:"yasiu";s:3:"sum";s:15:"[Web frontend] ";s:5:"extra";s:0:"";s:10:"sizechange";i:0;}s:11:"contributor";a:5:{s:6:"not7cd";s:13:"Norbert Szulc";s:7:"wolskey";s:16:"Sebastian Wolski";s:7:"yazjack";s:2:"JH";s:5:"yasiu";s:18:"Marcin Jasiukowicz";s:9:"critbit95";s:9:"CritBit95";}s:5:"title";s:13:"Odjazdoinator";s:11:"description";a:2:{s:15:"tableofcontents";a:8:{i:0;a:4:{s:3:"hid";s:13:"odjazdoinator";s:5:"title";s:13:"Odjazdoinator";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:9:"zalozenia";s:5:"title";s:11:"Założenia";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:9:"wykonanie";s:5:"title";s:9:"Wykonanie";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:20:"wrapper_na_api_ztm_u";s:5:"title";s:20:"Wrapper na API ZTM'u";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:4;a:4:{s:3:"hid";s:12:"cli-frontend";s:5:"title";s:12:"CLI-Frontend";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:5;a:4:{s:3:"hid";s:12:"web_frontend";s:5:"title";s:12:"Web Frontend";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:6;a:4:{s:3:"hid";s:17:"ciekawe_przydatne";s:5:"title";s:18:"#ciekawe_przydatne";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:7;a:4:{s:3:"hid";s:27:"mozliwosci_rozwoju_projektu";s:5:"title";s:29:"Możliwości rozwoju projektu";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:325:"Odjazdoinator
+Zamieszanyjustdzasta not7cd yasiu CritBit95 Rozpoczęto2018-03-07  Status
+w_realizacji
+
+Założenia
+
+Tablica wyświetlające nadchodzące odjazdy pobliskich tramwajno i innych PKMek.
+
+Wykonanie
+
+Wrapper na API ZTM'u
+
+CritBit95 zrobił taki gównowrapper w pythonie, że generuje dane dla przystanków po ich ID:";}s:7:"subject";a:1:{i:0;s:12:"w_realizacji";}s:8:"relation";a:2:{s:10:"references";a:2:{s:16:"tag:w_realizacji";b:0;s:18:"projekty:matekrate";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1520455223;s:8:"modified";i:1571341041;}s:7:"creator";s:13:"Norbert Szulc";s:4:"user";s:6:"not7cd";s:11:"last_change";a:8:{s:4:"date";i:1571341041;s:2:"ip";s:14:"213.192.75.118";s:4:"type";s:1:"E";s:2:"id";s:22:"projekty:odjazdoinator";s:4:"user";s:5:"yasiu";s:3:"sum";s:15:"[Web frontend] ";s:5:"extra";s:0:"";s:10:"sizechange";i:0;}s:11:"contributor";a:5:{s:6:"not7cd";s:13:"Norbert Szulc";s:7:"wolskey";s:16:"Sebastian Wolski";s:7:"yazjack";s:2:"JH";s:5:"yasiu";s:18:"Marcin Jasiukowicz";s:9:"critbit95";s:9:"CritBit95";}}}

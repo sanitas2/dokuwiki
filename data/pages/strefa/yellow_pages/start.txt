@@ -1,0 +1,15 @@
+====== Hacker Yellow Pages ======
+
+{{:strefa:yellow_pages:hacker_moeny.jpg?nolink&400|}}
+
+Hackerspejsowe '[[:strefa:yellow_pages:start|Yellow Pages]]' czyli spis wszystkich interesujących nas firm/sklepów/knajp, ich strony, kontakt i inne potrzebne pierdoły.
+Z tą różnicą, że są tu kody zniżkowe których nie chcemy zbytnio udostępniać publice
+
+^Co ^Gdzie ^ Kontakt^ Uwagi^
+| Ochrona | - | 606 796 550 | Kiedy uruchomisz alarm i nie chcesz płacić za przyjazd ochrony |
+| Marcin | CODE:ME | 732 012 597 | W razie problemów z dostępem do budynku itp. |
+|Jedzenie |Zajezdnia Pizza | 576 685 385 | -10% i darmowa dostawa, wystarczy powiedzieć, że do HSu |
+|Hurtownia elektroniczna | Yaboo | www.yaboo.pl | -10% z kodem ''Hackerspace2019''| 
+|Internet hs3:lan |Hackerspace | Slack:#noc | ''przyjmujemy_datki_x86'' maksymalnie 255 połączeń|
+|Drzwi | Hackerspace | Marcin | ''DOOR'' na keyboardzie |
+|Alarm | Hackerspace | Marcin | ''KURWA'' na keyboardzie |

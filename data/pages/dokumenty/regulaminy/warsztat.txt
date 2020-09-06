@@ -1,0 +1,39 @@
+====== Regulamin warsztatu Hackerspace Trójmiasto ======
+
+1. Niestosowanie się do regulaminu będzie skutkowało upomnieniem, a w przypadku braku poprawy, pozbawieniem członkostwa oraz zakazem wstępu na teren warsztatu. Goście mogą zostać wyproszeni z całego Hackerspace’u.
+
+2. Warsztat jest tylko dla członków HS. Członek może pracować w warsztacie z gośćmi, za których bierze odpowiedzialność. Gość nie może od nikogo uzyskać "pozwolenia" na samowolne korzystanie z warsztatu, bez nadzoru.
+
+3. Z warsztatu korzystasz po orientacji i przeszkoleniu, na własną odpowiedzialność.
+
+Jeżeli cokolwiek popsujesz musisz o tym poinformować społeczność HS na forum publicznym i naprawić powstałe szkody. Jeśli nie jesteś w stanie tego zrobić, poproś o pomoc.
+
+4. Na teren warsztatu mają wstęp tylko osoby trzeźwe i nie będące pod wpływem jakichkolwiek używek itp.
+
+5. HS nie odpowiada za uszczerbki na zdrowiu oraz za szkody powstałe w wyniku korzystania z warsztatu.
+
+6. Osoba, która nie umie obsługiwać danego narzędzia nie może go używać, ani uruchamiać.
+
+Jeśli chcesz skorzystać z narzędzia lub sprzętu, którego nie umiesz obsługiwać poproś na forum społeczności HS o przeszkolenie - ktoś na pewno Ci pomoże.
+
+7. Obowiązuje zakaz wynoszenia z terenu HS narzędzi oraz sprzętu oznaczonych jako prywatne, chyba że za pozwoleniem właściciela.
+
+W warsztacie, tak jak na terenie całego HSu przedmioty prywatne oznaczane są poprzez naklejoną różową kropkę, albo przez podpisanie imieniem/nickiem członka HS.
+
+8. Materiały - drewno, metal, śruby kleje i tym podobne, jeśli nie są oznaczone lub podpisane, są własnością społeczności HS i każdy członek może je w każdej chwili zużyć.
+
+Jeśli zużyjesz cały materiał - np. zużyjesz cały lub prawie cały klej do drewna poinformuj o tym społeczność. Nie musisz dokupywać zużytego materiału - chociaż będziemy wdzięczni za każdą dotację.
+
+9. Przed wyjściem z warsztatu posprzątaj po sobie.
+
+Wszelkie narzędzia, materiały itp. odłóż na swoje miejsce, ogarnij blaty i resztę warsztatu. Wynik swoich prac zabierz wychodząc - projekty niedokończone nie mogą blokować warsztatu dla innych członków.
+
+10. Zachęca się do dokumentowania oraz/albo opisywania projektów powstałych w warsztacie na stronie [[:projekty:start | wiki.hs3.pl/projekty]].
+
+====== Po co ten regulamin? ======
+
+Warsztat to narzędzia zgromadzone na terenie Hackerspace Trójmiasto oraz przestrzeń tworzona przez członków HS dla członków HS. W warsztacie znajduje się wiele narzędzi oraz sprzętu, które źle używane stanowią zagrożenie dla zdrowia i życia zarówno użytkownika, jak i osób postronnych. Dodatkowo nieumiejętne korzystanie może doprowadzić do szybkiego zużycia narzędzi, a biorąc pod uwagę że wiele z nich to własność prywatna członków HS, może to prowadzić do nieprzyjemnych sytuacji.
+
+Celem warsztatu jest umożliwienie, ułatwienie oraz przyspieszenie prac nad niemal dowolnym projektem dla członków HS.
+
+Dlatego też zdecydowaliśmy się stworzyć ten regulamin, którego należy bezwzględnie przestrzegać.

@@ -1,0 +1,24 @@
+====== LDAP ======
+
+^Zamieszani|[[user>ksiadz|ksiadz]], [[user>iwan|iwan]] |
+^Rozpoczęto|2018-03-31  |
+^Status|{{tag>projekty:planowany}}  |
+
+===== Plan =====
+
+  - Centos 8 jest [[https://wiki.centos.org/About/Building_8#head-516d5e6556bb8523b52fba246953d32831582480|w drodze]]
+  - Będzie miał wspierany [[https://wiki.centos.org/About/Building_8#head-c2699098ec0696d4d4aafbd404d74fa37546a8ec|build na ARMv8]]
+  - Na sprzęcie z odpowiednim procesorem (malina, banan, cokolwiek innego - zapewnię) postawiony zostanie tenże Centos 8 oraz [[https://www.openldap.org/|OpenLDAP]]
+  - Na pierwszy integracyjny ogień pójdzie [[https://www.dokuwiki.org/plugin:authldap|Wiki]]
+
+===== Założenia =====
+
+  * **LDAP będzie dostępny wyłącznie z wewnątrz/po VPN** - jeśli ktoś uważa inaczej, to zapraszam do dyskusji. Jeśli Wiki nie może mieć dostępu do VPN, to zakładam, że host na którym stoi ma stałe IP i da się ten jeden jedyny port jakoś udostępnić.
+
+===== Alternatywy =====
+
+  * Centos 7 [[https://wiki.centos.org/SpecialInterestGroup/AltArch/armhfp|w wersji na ARMv7]] - nie palę się do użycia tej wersji głównie ze względu na niestandardowy (4.14) kernel, a co za tym idzie ryzyko umiarkowanie udanej współpracy z resztą pakietów.
+  * nie-Centos:
+    * wszyscy wiemy jak stara jest Twoja stara i jaki ma to wpływ na wiek pakietów w repozytoriach niektórych dystrybucji (więc Raspbian odpada);
+    * Fedorze trzeba często podbijać wersje
+    * Ubuntu też wspiera ARMv8, ale znacznie bardziej ufam Centosowi. Poza tym marzy mi się distro bez Dockera.

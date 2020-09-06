@@ -1,0 +1,16 @@
+a:2:{s:7:"current";a:10:{s:4:"date";a:2:{s:7:"created";i:1556011259;s:8:"modified";i:1556535986;}s:7:"creator";s:7:"Norbert";s:4:"user";s:6:"not7cd";s:11:"last_change";a:8:{s:4:"date";i:1556535986;s:2:"ip";s:13:"153.19.214.40";s:4:"type";s:1:"E";s:2:"id";s:24:"sprzet:oscyloskop_cq5620";s:4:"user";s:6:"not7cd";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-9;}s:11:"contributor";a:1:{s:6:"not7cd";s:7:"Norbert";}s:5:"title";s:17:"Oscyloskop CQ5620";s:11:"description";a:2:{s:15:"tableofcontents";a:2:{i:0;a:4:{s:3:"hid";s:17:"oscyloskop_cq5620";s:5:"title";s:17:"Oscyloskop CQ5620";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:5:"uwagi";s:5:"title";s:5:"uwagi";s:4:"type";s:2:"ul";s:5:"level";i:2;}}s:8:"abstract";s:300:"Oscyloskop CQ5620
+
+[puszka o której mowa]
+
+sprzet hardware elektronika
+
+----------
+
+Działa
+
+ [źródło, dostęp 2018/01/11]
+
+uwagi
+
+	*  W gnieździe jeden pin jest włamany i może się wcisnąć do środka. Został sklejony na kropelkę, ale lepiej nie testować wytrzymałości. 
+	*  Maks 20 MHz";}s:8:"relation";a:3:{s:5:"media";a:2:{s:25:"poradniki:oscylli_boi.jpg";b:1;s:66:"poradniki:oryginalna_instrukcja_obslugi_oscyloskopu_mcp_cq5620.pdf";b:1;}s:10:"references";a:3:{s:10:"tag:sprzet";b:0;s:12:"tag:hardware";b:0;s:15:"tag:elektronika";b:0;}s:10:"firstimage";s:25:"poradniki:oscylli_boi.jpg";}s:7:"subject";a:3:{i:0;s:6:"sprzet";i:1;s:8:"hardware";i:2;s:11:"elektronika";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1556011259;s:8:"modified";i:1556535986;}s:7:"creator";s:7:"Norbert";s:4:"user";s:6:"not7cd";s:11:"last_change";a:8:{s:4:"date";i:1556535986;s:2:"ip";s:13:"153.19.214.40";s:4:"type";s:1:"E";s:2:"id";s:24:"sprzet:oscyloskop_cq5620";s:4:"user";s:6:"not7cd";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-9;}s:11:"contributor";a:1:{s:6:"not7cd";s:7:"Norbert";}}}

@@ -1,0 +1,23 @@
+====== Przykładowy Projekt ======
+
+^Zamieszany|[[user>rando]]  |
+^Rozpoczęto|2077-01-10  |
+^Status|{{tag>Planowany}}|
+
+==== Założenia ====
+
+==== Iteracje ====
+
+===== Wykonanie =====
+
+==== Hardware ====
+
+==== Kod ====
+
+==== Kosztorys ====
+
+==== Worklog ====
+
+==== #ciekawe_przydatne ====
+
+===== Możliwości rozwoju projektu =====

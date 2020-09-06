@@ -1,0 +1,10 @@
+====== Minigrawerator ======
+
+^Zamieszany|[[user>mamert]]  |
+^Rozpoczęto|2019-04-17  |
+^Status|{{tag>zakończony}}  |
+^Tagi|{{tag>projekt}}  |
+
+// Opis projektu, abstrakt //
+
+===== Worklog =====

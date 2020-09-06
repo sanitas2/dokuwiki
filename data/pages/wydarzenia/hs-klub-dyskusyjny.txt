@@ -1,0 +1,12 @@
+====== Klub Dyskusyjny ======
+{{tag>wydarzenie cykliczne}}
+
+----
+
+Klub Dyskusyjny ma zmienny temat, formułę, i nazwę...\\
+Kiedyś się ustatkujemy, ale ten dzień to nie jest dzisiaj.
+
+
+Lista spotkań, które się odbyły:
+
+{{topic>hs-klub-dyskusyjny&simplelist}}

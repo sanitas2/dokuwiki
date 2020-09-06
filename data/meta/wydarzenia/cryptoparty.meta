@@ -1,0 +1,15 @@
+a:2:{s:7:"current";a:10:{s:4:"date";a:2:{s:7:"created";i:1551201234;s:8:"modified";i:1568321195;}s:7:"creator";s:7:"Olgierd";s:4:"user";s:8:"allgreed";s:11:"last_change";a:8:{s:4:"date";i:1568321195;s:2:"ip";s:15:"176.221.120.219";s:4:"type";s:1:"E";s:2:"id";s:22:"wydarzenia:cryptoparty";s:4:"user";s:5:"yasiu";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-12;}s:11:"contributor";a:3:{s:8:"allgreed";s:7:"Olgierd";s:5:"yasiu";s:18:"Marcin Jasiukowicz";s:3:"rrr";s:6:"Robert";}s:5:"title";s:11:"Cryptoparty";s:11:"description";a:2:{s:15:"tableofcontents";a:4:{i:0;a:4:{s:3:"hid";s:11:"cryptoparty";s:5:"title";s:11:"Cryptoparty";s:4:"type";s:2:"ul";s:5:"level";i:1;}i:1;a:4:{s:3:"hid";s:13:"organizowanie";s:5:"title";s:13:"Organizowanie";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:2;a:4:{s:3:"hid";s:19:"wydarzenia_przeszle";s:5:"title";s:20:"Wydarzenia przeszłe";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:3;a:4:{s:3:"hid";s:15:"section15022019";s:5:"title";s:10:"15.02.2019";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:318:"Cryptoparty
+
+wydarzenie okazjonalne
+
+Organizowanie
+
+	*  Na Slacku jest kanał #crypto-party-org
+	*  Protip na zbieranie tematów:  Etherpad
+	*  Podążaj standardową procedurą  robienia wydarzeń
+	*  Dema / opowiedzenie co przygotowują prelegenci to protip
+	*   Naklejki są fajne!
+
+Wydarzenia przeszłe
+
+15.02.2019";}s:7:"subject";a:2:{i:0;s:10:"wydarzenie";i:1;s:11:"okazjonalne";}s:8:"relation";a:2:{s:10:"references";a:3:{s:14:"tag:wydarzenie";b:0;s:15:"tag:okazjonalne";b:0;s:24:"poradniki:zrob_se_meetup";b:1;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1551201234;s:8:"modified";i:1568321195;}s:7:"creator";s:7:"Olgierd";s:4:"user";s:8:"allgreed";s:11:"last_change";a:8:{s:4:"date";i:1568321195;s:2:"ip";s:15:"176.221.120.219";s:4:"type";s:1:"E";s:2:"id";s:22:"wydarzenia:cryptoparty";s:4:"user";s:5:"yasiu";s:3:"sum";s:0:"";s:5:"extra";s:0:"";s:10:"sizechange";i:-12;}s:11:"contributor";a:3:{s:8:"allgreed";s:7:"Olgierd";s:5:"yasiu";s:18:"Marcin Jasiukowicz";s:3:"rrr";s:6:"Robert";}}}

@@ -1,0 +1,9 @@
+1568130168	176.221.120.219	C	infrastruktura:network	yasiu	utworzono		887
+1568317328	176.221.120.219	E	infrastruktura:network	yasiu			29
+1568321389	176.221.120.219	D	infrastruktura:network	yasiu	usunięto		-916
+1568321404	176.221.120.219	C	infrastruktura:network	yasiu	utworzono		916
+1568321454	176.221.120.219	E	infrastruktura:network	yasiu			112
+1568321629	176.221.120.219	E	infrastruktura:network	yasiu			1
+1569514977	213.192.75.118	R	infrastruktura:network	not7cd	przywrócono poprzednią wersję (2019/09/12 20:50)	1568321404	-113
+1569514984	213.192.75.118	R	infrastruktura:network	not7cd	przywrócono poprzednią wersję (2019/09/12 20:53)	1568321629	113
+1569514996	213.192.75.118	E	infrastruktura:network	not7cd			-13

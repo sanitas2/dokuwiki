@@ -1,0 +1,26 @@
+====== Wydarzenia ======
+Czyli bardziej zorganizowane lub cykliczne zbiorowiska ludzi w określonym czasie na terenie HS'u.
+[[poradniki:zrob_se_meetup|Jak zrobić wydarzenie w Hakerspejsie?]]
+
+==== Nadchodzące ====
+
+[[https://hs3.pl/calendar/| Sprawdź kalendarz]]
+{{topic>wydarzenie -zakończone&simplelist}}
+
+==== Cykliczne ====
+{{topic>wydarzenie +cykliczne -zakończone&simplelist}}
+
+==== Okazjonalne ====
+{{topic>wydarzenie +okazjonalne -zakończone&simplelist}}
+
+=== Jednorazowe ===
+{{topic>wydarzenie +one_off&simplelist}}
+
+=== Zakończone ===
+{{topic>wydarzenie +zakończone&simplelist}}
+
+
+===== Wszystkie Wydarzenia =====
+FIXME dodaj resztę wydarzeń
+
+{{indexmenu>:wydarzenia#1}}

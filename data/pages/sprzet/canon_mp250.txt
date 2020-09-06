@@ -1,0 +1,7 @@
+====== Canon PIXMA MP250 ======
+
+Sterowniki xD
+
+  * https://asia.canon/en/support/0100236101
+  * https://aur.archlinux.org/packages/cnijfilter-mp250/
+  * https://tutorialforlinux.com/2018/06/28/printer-canon-mp250-driver-for-linux-mint-19-how-to-download-install/

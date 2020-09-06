@@ -1,0 +1,11 @@
+a:2:{s:7:"current";a:10:{s:4:"date";a:2:{s:7:"created";i:1571840141;s:8:"modified";i:1572306208;}s:7:"creator";s:18:"Marcin Jasiukowicz";s:4:"user";s:5:"yasiu";s:11:"last_change";a:8:{s:4:"date";i:1572306208;s:2:"ip";s:13:"94.254.233.24";s:4:"type";s:1:"E";s:2:"id";s:36:"sprzet:drukarka_2d_hp_laserjet_p1102";s:4:"user";s:5:"yasiu";s:3:"sum";s:38:"[Instalacja na systemach UNIX'owych:] ";s:5:"extra";s:0:"";s:10:"sizechange";i:-13;}s:11:"contributor";a:1:{s:5:"yasiu";s:18:"Marcin Jasiukowicz";}s:5:"title";s:17:"HP LaserJet P1102";s:11:"description";a:2:{s:15:"tableofcontents";a:4:{i:0;a:4:{s:3:"hid";s:17:"hp_laserjet_p1102";s:5:"title";s:17:"HP LaserJet P1102";s:4:"type";s:2:"ul";s:5:"level";i:2;}i:1;a:4:{s:3:"hid";s:35:"instalacja_sterownikow_na_windowsie";s:5:"title";s:37:"Instalacja sterowników na Windowsie:";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:2;a:4:{s:3:"hid";s:21:"instalacja_na_linuxie";s:5:"title";s:22:"Instalacja na Linuxie:";s:4:"type";s:2:"ul";s:5:"level";i:3;}i:3;a:4:{s:3:"hid";s:14:"wymiana_tonera";s:5:"title";s:14:"Wymiana Tonera";s:4:"type";s:2:"ul";s:5:"level";i:3;}}s:8:"abstract";s:304:"HP LaserJet P1102
+
+sprzet
+
+----------
+
+Czarno-Biała, dobra jakość wydruku, okazjonalne paski po lewej i prawej stronie wydruku, prawdopodobnie robione przez zanieczyszczone tonerem rolki.
+
+Instalacja sterowników na Windowsie:
+
+	*  Zacznij z drukarką włączoną do sieci, ale odpiętą od komputera.";}s:7:"subject";a:1:{i:0;s:6:"sprzet";}s:8:"relation";a:2:{s:10:"references";a:1:{s:10:"tag:sprzet";b:0;}s:10:"firstimage";s:0:"";}s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}}s:10:"persistent";a:5:{s:4:"date";a:2:{s:7:"created";i:1571840141;s:8:"modified";i:1572306208;}s:7:"creator";s:18:"Marcin Jasiukowicz";s:4:"user";s:5:"yasiu";s:11:"last_change";a:8:{s:4:"date";i:1572306208;s:2:"ip";s:13:"94.254.233.24";s:4:"type";s:1:"E";s:2:"id";s:36:"sprzet:drukarka_2d_hp_laserjet_p1102";s:4:"user";s:5:"yasiu";s:3:"sum";s:38:"[Instalacja na systemach UNIX'owych:] ";s:5:"extra";s:0:"";s:10:"sizechange";i:-13;}s:11:"contributor";a:1:{s:5:"yasiu";s:18:"Marcin Jasiukowicz";}}}

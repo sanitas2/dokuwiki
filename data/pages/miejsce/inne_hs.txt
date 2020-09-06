@@ -1,0 +1,7 @@
+====== Hackerspejsy w Polsce ======
+
+
+^Gdzie^Co^Strona^Odwiedzone?^
+^Warszawa |Hackerspace Warszawa|https://hackerspace.pl| |
+^Kraków  |Hackerspace Kraków|https://hackerspace-krk.pl| |
+^Wrocław |Hackerspace Wrocław | https://hswro.pl |

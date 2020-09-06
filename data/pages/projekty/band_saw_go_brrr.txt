@@ -1,0 +1,115 @@
+===== Band saw go brrr =====
+^Zamieszany|[[user>yazjack]]  |
+^Rozpoczęto|2019-12-18  |
+^Status|{{tag>zakończony}}  |
+^Tagi|{{tag>projekt hardware}}  |
+==== Założenia ====
+  * feedback loop: szybkość opuszczania głowicy <=> prędkość taśmy; zniwelowanie nieliniowego działania siłownika hydraulicznego
+  * wykrywanie krawędzi poziomych w pojedynczych profilach i klastrach profili (zwalnianie głowicy "rozpędzonej" na odcinkach pionowych)
+  * cięcie profili i prętów tego samego rodzaju w różnych ilościach w imadle
+  * uwzględnienie kąta głowicy
+  * odcinanie silnika przy zacięciu taśmy
+Usprawnienie w postaci częściowej automatyzacji procesu cięcia na pile taśmowej Cormak 128HDR.
+Siłownik hydrauliczny opuszczający ramię piły działał nieliniowo w efekcie zawór odpowiadający za prędkość opadania wymagał ciągłej regulacji. W trakcie użytkowania zacząłem ciąć "na ucho", regulując zawór w razie konieczności przy zmianie obrotów spowodowanej obciążeniem silnika. To nasunęło mi pomysł, że możliwa byłaby automatyzacja na bazie feedback loop.
+Potem poszło w miarę zauważonych potrzeb, konieczność inputu w postaci wielkości i ilości ciętych elementów, kąta cięcia itp. zmusiły mnie do stworzenia UI, dokładnego zwymiarowania piły do przeliczania kąta ramienia na wysokość cięcia i innych drobnych modyfikacji.
+
+==== Iteracje ====
+=== Iteracja I ===
+Pierwsza, najprostsza implementacja. Pomiar prędkości obrotowej na kole napędowym odpowiada za zamykanie lub otwieranie zaworu
+
+{{https://www.youtube.com/watch?v=EM5CvdBC-dE}}
+
+{{https://www.youtube.com/watch?v=csdg-dNzynY&t=90s}}
+=== Iteracja II ===
+Rozpoznawanie miejsca rozpoczęcia cięcia na podstawie odczytu z czujnika TOF, drukowany uchwyt silnika krokowego
+=== Iteracja III ===
+DIY pomiar kąta nachylania ramienia, UI
+
+{{https://www.youtube.com/watch?v=C1N1d6D-oI0}}
+
+=== Iteracja IV ===
+Pomiar kąta nachylania na bazie komercyjnego enkodera
+
+{{https://www.youtube.com/watch?v=gn85unP_1Ss&t}}
+
+{{https://www.youtube.com/watch?v=1blRAEVXa94&t}}
+
+=== Iteracja V ===
+Dodanie przekaźnika odcinającego silnik, lasera pozycjonującego cięcie
+
+{{https://www.youtube.com/watch?v=wJWc1rsSUYE}}
+
+===== Wykonanie =====
+Narzędzia użyte w projekcie:
+  * lutownica
+  * wkrętarka
+  * gwintownica
+  * drukarka FDM
+==== Kontroler ====
+^Opis^Nazwa w kodzie^Nr pina arduino^Nr pina fizycznego^
+|pin A enkodera do menu|encPinA|2|6|
+|pin B enkodera do menu|encPinB|3|7|
+|przycisk enkodera do menu|buttonPin|5|5|
+|wyświetlacz cd|-|8|17|
+|wyświetlacz reset|-|9|18|
+|wyświetlacz cs|-|10|23|
+|wyświetlacz sck|-|ICSP SCK|20|
+|wyświetlacz mosi|-|ICSP MOSI|21|
+|kierunek silnika krokowego|dirPin|15|63|
+|end stop silnika krokowego|stepperEndStop|16|13|
+|krok silnika krokowego|stepPin|17|12|
+|end stop pomiaru kąta ramienia|angleEndStop|18|46|
+|czujnik indukcyjny|hallPin|19|45|
+|pin B enkodera do pomiaru kąta ramienia|anglePinB|20|44|
+|pin A enkodera do pomiaru kąta ramienia|anglePinA|21|43|
+|załączenie silnika krokowego|enablePin|29|71|
+|przekaźnik do odcinania silnika|relay|32|58|
+|uruchamianie lasera|laser|34|56|
+
+==== Hardware ====
+  * 360/600 P/R enkoder DC 5-24V
+  * laser liniowy
+  * montaż do lasera
+  * encoder z przyciskiem
+  * złącze JST XH2.54 4pin M&F
+  * złącze JST XH2.54 3pin M&F
+  * złącze JST XH2.54 2pin M&F
+  * Łożyska kulkowe 625 2RS 5x16x5mm x4
+  * MEGA 2560 Mini Pro
+  * A4988
+  * silnik krokowy NEMA17 40mm
+  * obudowa standardowa
+  * Wyświetlacz LCD 1.8" ST7735
+  * płytka uniwersalna
+  * goldpiny wszelkiej maści
+  * przewody
+  * czujnik indukcyjny PNP
+  * drukowana obudowa silnika
+  * drukowana przekładnia do pomiaru kąta ramienia
+  * śruby, owijki do przewodów, pręty stalowe 5mm i inne duperele
+
+==== Kod ==== 
+==== Kosztorys ====
+  * 360/600 P/R enkoder DC 5 V-24 V od braci z chin - $ 12.75 z wysyłką
+  * laser liniowy - 12PLN
+  * montaż do lasera - 20PLN
+  * encoder z przyciskiem - 4PLN
+  * złącze JST XH2.54 4pin M&F - 3PLN
+  * złącze JST XH2.54 3pin M&F - 3PLN
+  * złącze JST XH2.54 2pin M&F - 3PLN
+  * Łożyska kulkowe 625 2RS 5x16x5mm x4 - 10PLN
+  * MEGA 2560 Mini Pro - 60PLN
+  * A4988 - 10PLN
+  * silnik krokowy NEMA17 40mm - 40PLN
+  * Wyświetlacz LCD 1.8" ST7735 - 40PLN
+  * czujnik indukcyjny PNP - 50PLN
+==== Worklog ====
+
+  * 18.12.2019 - pierwsza implementacja
+  * 
+
+===== TODO =====
+  * automatyczne podnoszenie ramienia piły, idealnie byłoby na śrubie trapezowej, ale na to raczej nie pozwoli konstrukcja piły więc w grę wchodzi raczej pompa do hydrauliki
+  * przepisanie systemu z bazowanego na obrotach silnika na bazowany na prędkości opadania
+  * wymiana enkodera na lepszy, o wyższej rozdzielczości. Aktualny jest wystarczający, ale do działania w sposób z punktu powyżej będzie sensowniej dać Omrona z 2000P/R
+  * całkowita automatyzacja procesu cięcia z podajnikiem materiału, pomiarem długości odcinków, obrotem głowicy do cięć kątowych i integracja systemu przez sieć razem z softem do przeliczania odcinków. Linia-kurde-produkcyjna
