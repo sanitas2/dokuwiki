@@ -1,4 +1,4 @@
-a:2:{s:7:"current";a:7:{s:4:"date";a:2:{s:7:"created";i:1515780673;s:8:"modified";i:1519922685;}s:7:"creator";s:6:"Robert";s:4:"user";s:3:"rrr";s:11:"last_change";b:0;s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:11:"description";a:1:{s:8:"abstract";s:254:"Trzeba sprawdzić jakie parametry są potrzebne (jakie g ma uzyskiwać). Generalnie są dwa typy:
+a:2:{s:7:"current";a:7:{s:4:"date";a:2:{s:7:"created";i:1515780673;s:8:"modified";i:1599430438;}s:7:"creator";s:6:"Robert";s:4:"user";s:3:"rrr";s:11:"last_change";b:0;s:8:"internal";a:2:{s:5:"cache";b:1;s:3:"toc";b:1;}s:11:"description";a:1:{s:8:"abstract";s:254:"Trzeba sprawdzić jakie parametry są potrzebne (jakie g ma uzyskiwać). Generalnie są dwa typy:
 
 	*  Mała do zbierania kropli na dnie epki
 	*  Większa, do właściwej pracy (oddzielania osadów; używania kolumn do oczyszczania DNA; itd)
